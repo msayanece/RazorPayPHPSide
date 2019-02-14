@@ -125,21 +125,14 @@ For further help, see our documentation on <https://docs.razorpay.com>.
 
 ## Developing
 
-See the [doc.md](doc.md) file for getting started with development.
+Under process directory, you will find 3 files...
+
+config.php => Update the MID (Marchant ID) and SECRET_KEY with your value. 
+
+order.php => Used for insert a order and generate order number etc.
+
+payment.php => Used for getting the payment details for a successful payment of an order.
 
 ## License
 
 The Razorpay PHP SDK is released under the MIT License.
-
-## Release
-
-Steps to follow for a release:
-
-0. Merge the branch with the new code to master.
-1. Bump the Version in `src/Api.php`.
-2. Rename Unreleased to the new tag in `CHANGELOG.md`
-3. Add a new empty "Unreleased" section at the top of `CHANGELOG.md`
-3. Fix links at bottom in `CHANGELOG.md`
-4. Commit
-5. Tag the release and push to GitHub
-6. A release should automatically be created once the travis build passes. Edit the release to add some description.
