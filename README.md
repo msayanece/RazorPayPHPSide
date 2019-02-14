@@ -13,7 +13,7 @@ Razorpay client PHP Api. The api follows the following practices:
 
 # Installation
 
-- If your project uses composer, run the below command
+- If your project uses composer, run the below command and then copy paste the entire folder (directory) called "process".
 ```
 composer require razorpay/razorpay:2.*
 ```
@@ -21,6 +21,10 @@ composer require razorpay/razorpay:2.*
 - If you are not using composer, download the latest release from [the releases section](https://github.com/razorpay/razorpay-php/releases).
 **You should download the `razorpay-php.zip` file**.
 After that include `Razorpay.php` in your application and you can use the API as usual.
+
+(OR)
+
+- You may want to directly fork and copy the entire project to your local machine; and edit only the files under the "process" folder.
 
 # Usage
 
